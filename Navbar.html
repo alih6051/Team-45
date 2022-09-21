@@ -4,11 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar
-        
-    </title>
+    <title>Navbar</title>
+    <style>
+   
+   #navbar{
+    border: 1px solid red;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: teal;
+    border-radius: 10px;
+   }
+
+   #navbar .left{
+        display: flex;
+        border: 0px solid red;
+        align-items: center;
+        font-size: 20px;
+        padding: 0px 0px 0px 15px;
+        color: white;
+   }
+
+   #navbar .right{
+   display: flex;
+        width:30%;
+        border: 0px solid red;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+        color: white;
+}
+
+    </style>
 </head>
 <body>
-    <div></div>
+    <div id="navbar">
+    <div class="left">Reebok</div>
+        <div class="right">
+            <p>Men</p>
+            <p>Women</p>
+            <p>Login</p>
+            <p>Signup</p>
+    
+        </div>
+    </div>
+
+    
+
 </body>
 </html>
